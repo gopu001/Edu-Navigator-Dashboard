@@ -1,0 +1,26 @@
+.dashboard{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.dashboard img{
+    width: 18px;
+height: 18px;
+flex-shrink: 0;
+}
+
+.dashboard p{
+    color: #7D8FB3;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+}
+
+.dashboard p:hover{
+    color: #FF9F43;
+    cursor: pointer;
+    font-size: 16px;
+}

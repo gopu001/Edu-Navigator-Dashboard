@@ -1,0 +1,50 @@
+.RightBar3_Box {
+  width: 200px;
+  height: 287px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #f8f8f8;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  .careerPedia {
+    color: #2f4362;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: 0.07px;
+  }
+
+  img {
+    width: 160.167px;
+    height: 166px;
+    flex-shrink: 0;
+  }
+
+  button {
+    display: flex;
+    width: 156px;
+    height: 30px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #467fff;
+    color: var(--Additional-white, #fff);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 19.2px */
+    outline: none;
+    border: none;
+  }
+}

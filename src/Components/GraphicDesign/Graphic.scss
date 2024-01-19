@@ -1,0 +1,81 @@
+.graphic {
+  width: 960px;
+  height: 305px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #f8f8f8;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 20px 50px 60px 20px;
+
+  .graphicDesign {
+    color: #2f4362;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.2px; /* 120% */
+    letter-spacing: 0.08px;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    .intro1 {
+      color: #2f4362;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px; /* 150% */
+    }
+    .des {
+      color: #64748b;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Montserrat;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 180% */
+      padding-bottom: 28px;
+    }
+
+    .points {
+      display: flex;
+      flex-direction: column;
+      gap: 37px;
+      overflow-y: scroll;
+      height: 120px;
+     
+
+      .items {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          color: #64748b;
+          font-feature-settings: "clig" off, "liga" off;
+          font-family: Montserrat;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 12px; /* 100% */
+        }
+
+        .point {
+          display: flex;
+          gap: 48px;
+
+          .playBtn {
+            display: flex;
+            gap: 19px;
+          }
+        }
+      }
+    }
+  }
+}

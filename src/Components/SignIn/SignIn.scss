@@ -1,0 +1,172 @@
+.signIn {
+  
+  background: #fff;
+  display: flex;
+  gap: 164px;
+  
+  button{
+    cursor: pointer;
+  }
+
+  .left {
+    width: 708px;
+    height: 900px;
+    flex-shrink: 0;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      width: 300px;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+      h2 {
+        color: #7d8fb3;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; /* 30px */
+        letter-spacing: 0.2px;
+      }
+
+      p {
+        color: #7d8fb3;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+      }
+    }
+
+    form {
+      width: 404px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      input {
+        width: 100%;
+        display: flex;
+        height: 56px;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 12px;
+        border: 1px solid var(--Greyscale-200, #e2e8f0);
+      }
+      .forgot {
+        color: #0557a2;
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 22.4px */
+        border: none;
+        background: transparent;
+        outline: none;
+      }
+    }
+
+    .signBtn {
+      display: flex;
+      width: 404px;
+      height: 56px;
+      padding: 8px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 12px;
+      background: #0557a2;
+      color: var(--Additional-white, #fff);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: 0.2px;
+    }
+    .signWith {
+      display: flex;
+      gap: 13px;
+      justify-content: center;
+      align-items: center;
+      hr {
+        width: 93px;
+        height: 1px;
+        background: #e2e8f0;
+      }
+      p {
+        color: #7d8fb3;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%; /* 19.2px */
+      }
+    }
+    .google {
+      display: flex;
+      width: 223px;
+      height: 38px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid var(--Greyscale-200, #e2e8f0);
+      background: var(--Additional-white, #fff);
+    }
+
+    .google img {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+    .google p {
+      color: #3b3c3d;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 24px */
+      letter-spacing: 0.2px;
+    }
+    .signUp {
+      p {
+        color: #7d8fb3;
+        text-align: center;
+        /* body/medium/regular */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+      }
+      button {
+        color: #0557a2;
+
+        /* body/medium/bold */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+}

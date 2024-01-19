@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFF;
+}
+
+.nav{
+    width: 1208px;
+    height: 78px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 971px; */
+    /* padding-right: 30px; */
+}
+.student h1{
+    color: #2F4362; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 0.09px;
+}
+
+.icon{
+    width: 16.308px;
+height: 18px;
+flex-shrink: 0;
+}

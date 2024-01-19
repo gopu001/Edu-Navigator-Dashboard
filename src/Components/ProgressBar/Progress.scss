@@ -1,0 +1,60 @@
+.cards {
+  display: flex;
+  gap: 16px;
+
+  .card {
+    width: 228px;
+    min-height: 160px;
+    // height: 160px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #f8f8f8;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .title {
+      color: #2f4362;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 214.286% */
+      // padding-left: 15px;
+    }
+    .center {
+      display: flex;
+      // justify-content: space-between;
+      justify-content: flex-start;
+      // padding: 21px 16px;
+      gap: 50px;
+      .des {
+        width: 92px;
+        color: #64748b;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 160% */
+      }
+    }
+
+    .linearBar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+
+      p {
+        color: #64748b;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 160% */
+      }
+    }
+  }
+}

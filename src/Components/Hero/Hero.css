@@ -1,0 +1,10 @@
+.bars{
+    display: flex;
+    gap: 16px;
+    
+
+    .container{
+        flex: 1;
+    }
+    
+}

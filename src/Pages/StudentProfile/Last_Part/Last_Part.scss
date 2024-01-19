@@ -1,0 +1,88 @@
+.last_top{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+.experienceDetails{
+  color: #2F4362;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+}
+
+.last_part {
+  display: flex;
+  gap: 42px;
+
+  .cards {
+    width: 344px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #f8f8f8;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    padding-left: 20px;
+
+    .company {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      .company_name {
+        color: #2f4362;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 142.857% */
+      }
+      .role {
+        color: #7d8fb3;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+      }
+    }
+
+    .experience {
+      display: flex;
+      gap: 132px;
+      align-items: center;
+
+      .years {
+        color: #2f4362;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px; /* 105.556% */
+      }
+
+      .date {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        p{
+          color: #7d8fb3;
+          font-family: Montserrat;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px; /* 166.667% */
+           
+        }
+       
+      }
+    }
+  }
+}
+}

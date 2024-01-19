@@ -1,0 +1,46 @@
+.last {
+  display: flex;
+  gap: 16px;
+  .cards {
+    width: 472px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #f8f8f8;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .title {
+      color: #2f4362;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Montserrat;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 240% */
+    }
+
+    .monthCard {
+      .month,
+      .week {
+        color: #ff9f43;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 200% */
+      }
+      .week {
+        color: #64748b;
+      }
+    }
+
+    .monthCard {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
